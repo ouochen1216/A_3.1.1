@@ -531,7 +531,7 @@ body{
     <div id="left">
       <div id="product">
         <img src="product.png" alt="商品圖片">
-        <button id="replayBtn">重看操作說明</button>
+        <button id="replayBtn">重󠇡看操作說明</button>
       </div>
       <div id="priceTag">3512元</div>
     </div>
@@ -617,7 +617,7 @@ const slides=[
   <div class="slideContentLeft">
     <p>我們在買東西󠇡時，</p>
     <p>可以用不一󠇡樣的錢幣組合來付錢。</p>
-    <p>像10塊錢就可以付1個󠇡10塊或10個1個󠇡。</p>
+    <p>像10塊錢就可以付1個󠇡10塊或10個󠇡1塊。</p>
     <p>接下來請試試看用不同的3種方式來付錢吧！</p>
   </div>
 </div>`,
@@ -629,7 +629,7 @@ const slides=[
   <p>商品右下角的藍色框裡，</p>
   <p>是你要支付的價錢。</p>
   <p>而左上角的「重󠇡看操作說明」，</p>
-  <p>點擊後就可以重󠇡看怎麼怎麼操作。</p>
+  <p>點擊後就可以重󠇡看怎麼操作。</p>
 
  <div class="imageBox">
   <img src="intro2.png" alt="說明圖片2">
@@ -1266,7 +1266,7 @@ function renderHistoryCoins(obj){
     if(obj[v]>0){
 
       // 判斷量詞
-      const unit = (v === 1000 || v === 100) ? '張' : '個';
+      const unit = (v === 1000 || v === 100) ? '張' : '個󠇡';
 
       html+=`<div class="coinWrapper">
         <div class="coin" data-value="${v}" style="cursor:default;">${v}</div>
