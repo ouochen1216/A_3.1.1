@@ -554,7 +554,7 @@ body{
     </div>
     <div id="actionBtns">
     <button id="historyBtn">過去付款方式</button>
-    <button id="clearBtn">一鍵清空</button>
+    <button id="clearBtn">一󠇡鍵清空</button>
   </div>
 </div>
 
@@ -616,7 +616,7 @@ const slides=[
   </div>
   <div class="slideContentLeft">
     <p>我們在買東西時，</p>
-    <p>可以用不一樣的錢幣組合來付錢。</p>
+    <p>可以用不一󠇡樣的錢幣組合來付錢。</p>
     <p>像10塊錢就可以付1個10塊或10個1塊。</p>
     <p>接下來請試試看用不同的3種方式來付錢吧！</p>
   </div>
@@ -655,7 +655,7 @@ const slides=[
 `<div class="topTitleBox">操作說明</div>
 <div class="slideContentLeft">
   <p>在遊戲畫面的下方有1000元、100元、10元與1元。</p>
-  <p>當你點擊某一錢幣時，</p>
+  <p>當你點擊某一󠇢錢幣時，</p>
   <p>就可以將錢幣拿起。</p>
   <p>請在拿起錢幣後，</p>
   <p>將其移到右方的「付錢區」來支付。</p>
@@ -670,7 +670,7 @@ const slides=[
 `<div class="topTitleBox">操作說明</div>
 <div class="slideContentLeft">
   
-  <p>如果你想一次多拿幾個錢幣，</p>
+  <p>如果你想一󠇡次多拿幾個錢幣，</p>
   <p>也可以在長按住錢幣後，</p>
   <p>輸入你想要的錢幣數量，</p>
   <p>這樣你拿起的錢幣數量，</p>
@@ -688,8 +688,8 @@ const slides=[
 
   <p>如果不小心放錯錢幣，</p>
   <p>點一󠇡下已經在付錢區的錢幣就可以移除了。</p>
-  <p>或者是也可以點擊「一件清空」的按鈕，</p>
-  <p>來把已放在付錢區中的錢幣一次清空。</p>
+  <p>或者是也可以點擊「一󠇡鍵清空」的按鈕，</p>
+  <p>來把已放在付錢區中的錢幣一󠇡次清空。</p>
   <div class="imageBox">
    <img src="intro6.png" alt="說明圖片6">
   </div>
@@ -701,10 +701,10 @@ const slides=[
 
   <p>當你在付錢區放上符合商品價格的錢幣時，</p>
   <p>請點擊「完成付款」來進行支付。</p>
-  <p>付款方式正確則完成一種支付方式。</p>
-  <p>完成一種付款方式後，</p>
+  <p>付款方式正確則完成一󠇢種支付方式。</p>
+  <p>完成一󠇢種付款方式後，</p>
   <p>你可以點擊來清除在付錢區的部分錢幣，</p>
-  <p>再放上其他的錢幣來完成另一種付款方式。</p>
+  <p>再放上其他的錢幣來完成另一󠇢種付款方式。</p>
   <p>但如果使用了重複的付款方式，</p>
   <p>付錢區的錢幣就會全部清空喔！</p>
 
@@ -1114,7 +1114,7 @@ function checkPayment(){
 
   if(isRepeat){
 
-    showMessage(`你剛剛已經使用過這種方式了。<br>換一種支付方法試試吧！<br>還需要嘗試${REQUIRED_WAYS-history.length}種付錢方式喔！`,false);
+    showMessage(`你剛剛已經使用過這種方式了。<br>換一󠇢種支付方法試試吧！<br>還需要嘗試${REQUIRED_WAYS-history.length}種付錢方式喔！`,false);
     successRepeatSound.currentTime=0;
     successRepeatSound.play();
 
@@ -1190,7 +1190,7 @@ content.innerHTML = `
   ">
     <button id="restartBtn"
       style="font-size:22px;padding:12px 30px;border-radius:14px;border:none;background:#0066CC;color:white;font-family:BpmfZihiKaiStd-Regular;cursor:pointer;">
-      再玩一次
+      再玩一󠇡次
     </button>
 
     <button id="closeGameBtn"
